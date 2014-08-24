@@ -1,0 +1,120 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * *  Global CSS   * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+body {
+	margin: 0;
+	background-color: #DFEFF0;
+}
+
+input:focus, textarea:focus, select:focus, button:focus{
+	outline: none;
+}
+
+h1, h2, h3 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #2E2E2E;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+}
+
+p {
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	color: #424242;
+}
+
+li {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+	color: #424242;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * *  CSS Classes  * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.text-wrap {
+	padding: 0 20px;
+}
+
+.ul-wrap {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ul-wrap > li {
+	font-size: 18px;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+	padding-top: 12px;
+	padding-bottom: 12px;
+	color: #EFF4F7;
+}
+
+.ul-wrap > li > a {
+	padding: 10px;
+	color: #EFF4F7;
+	text-decoration: none;
+}
+
+.ul-wrap > li > a:hover {
+	text-decoration: underline;
+}
+
+.row-wrap {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.row:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.col-25, .col-30, .col-33, .col-40, .col-50, .col-60, .col-70, .col-100 {
+	float: left;
+}
+
+.col-25 {
+	width: 25%;
+}
+
+.col-30 {
+	width: 30%;
+}
+
+.col-33 {
+	width: 33.33%;
+}
+
+.col-40 {
+	width: 40%;
+}
+
+.col-50 {
+	width: 50%;
+}
+
+.col-60 {
+	width: 60%;
+}
+
+.col-70 {
+	width: 70%;
+}
+
+.col-100 {
+	width: 100%;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
