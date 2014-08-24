@@ -312,6 +312,7 @@
 }
 
 #watermark > p {
+	font-size: 14px;
 	color: #ECECEC;
 }
 
