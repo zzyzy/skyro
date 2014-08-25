@@ -12,6 +12,26 @@
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/zeeup.css">
 		<link rel="stylesheet" href="css/zeeup-skyro.css">
+		<style>
+		#banner {
+			background-color: #F8963C;
+		}
+
+		#banner-splash {
+			height: 250px;
+			box-shadow: 0 0 0;
+		}
+
+		#banner-nav > ul > li > a:hover {
+			background-color: #E4750F;
+			border-radius: 5px;
+			transition: background-color 0.5s;
+		}
+
+		#current {
+			background-color: #E4750F;
+		}
+		</style>
 	</head>
 	<body>
 		<header id="cp">
@@ -26,7 +46,7 @@
 								<li>Server: <span class="status-green">up</span></li>
 							</ul>
 							<ul class="right">
-								<li><a href="">Index</a></li>
+								<li><a href="index.html">Index</a></li>
 								<li><a href="">Control Panel</a></li>
 								<li><a href="">Wiki</a></li>
 								<li><a href="">Forums</a></li>
@@ -43,8 +63,8 @@
 					<div class="col-100">
 						<div id="banner-nav">
 							<ul class="left">
-								<li><a href="about.html">About</a></li>
-								<li><a href="features.html">Features</a></li>
+								<li><a  href="about.html">About</a></li>
+								<li><a id="current" href="">Features</a></li>
 								<li><a href="">News & Events</a></li>
 								<li><a href="downloads.html">Downloads</a></li>
 								<li><a href="ranking.html">Ranking</a></li>
@@ -59,13 +79,11 @@
 				<div class="row">
 					<div class="col-100">
 						<div id="banner-splash">
-							<div id="banner-splash-slider">
-								<img id="banner-splash-slider-img-1" alt="">
-								<img id="banner-splash-slider-img-2" alt="">
-							</div>
-							<div id="banner-splash-control">
-								<button id="banner-splash-control-slide-left" class="left"></button>
-								<button id="banner-splash-control-slide-right" class="right"></button>
+							<div class="text-wrap">
+								<div id="banner-splash-foreword">
+									<h1>Features</h1>
+									<h2>So, here's what we offer you...</h2>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -78,27 +96,15 @@
 				<div class="row">
 					<div class="col-70">
 						<div class="text-wrap">
-							<h1>Welcome to skyRO!</h1>
+							<h1>Lorem ipsum dolor sit amet</h1>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							<h1>News & Events</h1>
+							<h1>Lorem ipsum dolor sit amet</h1>
 							<p>Donec ornare vel velit at consectetur. Integer eget sem in mi rutrum hendrerit ac ac risus. Integer posuere nulla vel feugiat ornare. Vestibulum luctus molestie commodo. Aliquam laoreet dapibus tristique. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus lobortis iaculis neque ac dapibus. Proin nec faucibus purus, non mattis nibh. Sed id lacus tincidunt, rhoncus odio quis, tincidunt felis. Aenean ac sagittis nibh. Nulla nibh ex, commodo ac eros ac, pretium auctor elit. Duis aliquet pretium urna eu ultricies.</p>
 						</div>
 					</div>
 					<div class="col-30">
 						<div class="text-wrap">
 							<p>Integer eu odio id orci faucibus tempus. Praesent quis ex ligula. Mauris fringilla scelerisque nulla, varius lobortis nisi suscipit vitae. Quisque ac enim eleifend, efficitur sem non, dictum turpis. Cras placerat nibh sit amet ligula dapibus, vitae auctor purus congue. Ut fermentum urna eget justo dapibus, et fermentum neque congue. Nunc sem orci, bibendum sit amet felis non, imperdiet lobortis libero. Quisque ac magna ex. Maecenas ut vulputate nibh, sit amet pretium felis. Quisque mollis augue sed mauris maximus sollicitudin. Nunc diam leo, blandit at bibendum vitae, fringilla id nibh. Nullam faucibus mi mauris, et ultricies odio elementum quis. Nulla vel leo sed massa imperdiet aliquet non non leo. Sed tristique mi pellentesque lectus venenatis dapibus. Quisque eleifend ac sem in tincidunt. Ut in nisl luctus, iaculis leo nec, vestibulum turpis.</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-50">
-						<div class="text-wrap">
-							<p>Duis dictum leo vel eros dignissim, in commodo odio lacinia. Phasellus et vestibulum libero. Suspendisse luctus magna vitae finibus auctor. Morbi ut lacinia sapien. Nullam accumsan augue ac libero lobortis, in rutrum est dapibus. Nunc lobortis tempus ante et tristique. Fusce nec tristique ipsum, ullamcorper laoreet leo. Cras maximus quam lorem, non tincidunt metus maximus ac. Cras vel tortor rutrum, interdum risus eu, cursus dui. Praesent leo tortor, dapibus ac velit vel, suscipit laoreet urna.</p>
-						</div>
-					</div>
-					<div class="col-50">
-						<div class="text-wrap">
-							<p>Aenean id fermentum risus, eu condimentum ex. Fusce interdum enim sem, quis malesuada ipsum condimentum nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi aliquam orci in sagittis mattis. Aliquam eget erat massa. Pellentesque dictum, quam eu vehicula cursus, ante neque condimentum elit, eget facilisis sapien sem facilisis ligula. Aenean ut pulvinar erat, vel rhoncus ante. Mauris mollis fermentum velit a porttitor. Aenean feugiat dolor sed nibh porttitor, a cursus metus vestibulum. Nulla at placerat massa. Donec placerat interdum mauris quis facilisis.</p>
 						</div>
 					</div>
 				</div>

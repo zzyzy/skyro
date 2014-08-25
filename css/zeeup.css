@@ -3,10 +3,12 @@
 /* * * * * * * * * * *  Global CSS   * * * * * * * * * */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
-
 body {
 	margin: 0;
 	background-color: #DFEFF0;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
 }
 
 input:focus, textarea:focus, select:focus, button:focus{
@@ -14,19 +16,23 @@ input:focus, textarea:focus, select:focus, button:focus{
 }
 
 h1, h2, h3 {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, 'AppleGothic', sans-serif;
 	color: #2E2E2E;
 	text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
 }
 
 p {
-	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
 	color: #424242;
 }
 
 li {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
 	color: #424242;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+	box-sizing: border-box;
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
@@ -36,7 +42,7 @@ li {
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 .text-wrap {
-	padding: 0 20px;
+	padding: 20px 20px;
 }
 
 .ul-wrap {
