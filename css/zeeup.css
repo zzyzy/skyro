@@ -3,7 +3,9 @@
 /* * * * * * * * * * *  Global CSS   * * * * * * * * * */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
 body {
+	font-size: 100%;
 	margin: 0;
 	background-color: #DFEFF0;
 	display: flex;
@@ -17,13 +19,19 @@ input:focus, textarea:focus, select:focus, button:focus{
 
 h1, h2, h3 {
 	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, 'AppleGothic', sans-serif;
-	color: #2E2E2E;
-	text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+	color: #FFFFFF;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+	margin: 0;
+	padding: 10px;
+	background-color: #4CC3D9;
+	box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
 }
 
 p {
 	font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
 	color: #424242;
+	margin: 0;
+	padding: 10px 15px 10px 15px;
 }
 
 li {
@@ -31,8 +39,24 @@ li {
 	color: #424242;
 }
 
-input[type="text"], input[type="password"], input[type="email"] {
+label {
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, 'AppleGothic', sans-serif;
+	font-size: 1rem;
+	color: #424242;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+
+input[type="text"], input[type="password"], input[type="email"], select {
+	font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+	color: #6E6E6E;
 	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+#current {
+	background-color: #336699;
+	border-radius: 5px;
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
@@ -41,37 +65,37 @@ input[type="text"], input[type="password"], input[type="email"] {
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-.text-wrap {
-	padding: 20px 20px;
+.padding-wrap {
+	padding: 10px 20px 10px 20px;
 }
 
-.ul-wrap {
+.col-ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 }
 
-.ul-wrap > li {
-	font-size: 18px;
+.col-ul > li {
+	font-size: 1rem;
 	text-align: center;
-	text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
 	padding-top: 12px;
 	padding-bottom: 12px;
 	color: #EFF4F7;
 }
 
-.ul-wrap > li > a {
+.col-ul > li > a {
 	padding: 10px;
 	color: #EFF4F7;
 	text-decoration: none;
 }
 
-.ul-wrap > li > a:hover {
+.col-ul > li > a:hover {
 	text-decoration: underline;
 }
 
-.row-wrap {
-	width: 1280px;
+.container {
+	width: 960px;
 	margin: 0 auto;
 }
 
@@ -125,14 +149,12 @@ input[type="text"], input[type="password"], input[type="email"] {
 	float: right;
 }
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * */
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * */
-/* * * * * * * * * * * Media Queries * * * * * * * * * */
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * */
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.status-red {
+	color: red;
+	font-weight: bold;
+}
 
-@media screen and (max-width: 1366px) {
-	.row-wrap {
-		width: 960px;
-	}
+.status-green {
+	color: #00FF00;
+	font-weight: bold;
 }
