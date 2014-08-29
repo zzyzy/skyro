@@ -23,7 +23,8 @@ h1, h2, h3 {
 	padding: 10px;
 	background-color: #4CC3D9;
 	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
-	box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+	box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+	font-weight: normal;
 }
 
 h1 {
@@ -31,41 +32,41 @@ h1 {
 }
 
 h2 {
-	font-size: 1.25rem;
+	font-size: 1.375rem;
 }
 
 h3 {
-	font-size: 1rem;
+	font-size: 1.25rem;
 }
 
 p {
+	font-size: 0.8125rem;
 	color: #424242;
 	margin: 0;
-	padding: 10px 20px 10px 20px;
 }
 
 li {
-	font-size: 1rem;
+	font-size: 0.8125rem;
 	color: #424242;
 }
 
 label {
 	font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
-	font-size: 1rem;
+	font-size: 0.8125rem;
 	color: #424242;
-	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.1);
 }
 
-input[type="text"], input[type="password"], input[type="email"], select {
+input[type='text'], input[type='password'], input[type='email'], select {
 	font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
-	font-size: 1rem;
+	font-size: 0.8125rem;
 	color: #6E6E6E;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 }
 
-input[type="submit"] {
+input[type='submit'] {
 	font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
 }
 
@@ -75,8 +76,8 @@ input[type="submit"] {
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 #logo-title > a {
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
-	font-size: 2rem;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 1.5rem;
 	font-weight: bold;
 	text-decoration: none;
 	color: #FFFFFF;
@@ -92,24 +93,22 @@ input[type="submit"] {
 /* * * * * * * * * * *  CSS Classes  * * * * * * * * * */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
-.banner-h1, .banner-h2 {
-	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, 'AppleGothic', sans-serif;
-	color: #FFFFFF;
-	font-weight: bold;
+.banner-h {
 	padding: 10px 0 10px 0;
-	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+	box-shadow: none;
+	background-color: transparent;
 }
 
-.banner-h1 {
+h1.banner-h {
 	font-size: 2rem;
 }
 
-.banner-h2 {
+h2.banner-h {
 	font-size: 1.5rem;
 }
 
 .padding-wrap {
-	padding: 10px 20px 10px 20px;
+	padding: 20px;
 }
 
 .left {
@@ -182,35 +181,68 @@ input[type="submit"] {
 	width: 100%;
 }
 
+.box1-1_3 {
+
+}
+
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /* * * * * * * * * * * * * Tables  * * * * * * * * * * */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * Table 1 * * * * * * * * * * */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .table-1 {
 	width: 100%;
 }
 
 .table-1 th {
-	font-size: 1.25rem;
+	font-size: 1.375rem;
 	color: #FFFFFF;
 	padding: 10px;
 	background-color: #4CC3D9;
 	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
-	box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+	box-shadow: 0 2px 0 rgba(0,0,0,0.2);
 }
 
 .table-1 td {
+	font-size: 0.8125rem;
 	color: #6E6E6E;
-	border-bottom: 1px #D8D8D8 solid;
 	text-align: center;
 	padding: 10px;
+}
+
+.table-1 tr {
+	border-bottom: 1px #D8D8D8 solid;
+}
+
+.table-1 tr:first-child, .table-1 tr:last-child {
+	border-bottom: 0;
+}
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * Table 2 * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.table-2 {
+	width: 100%;
+}
+
+.table-2 tr td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.table-2 tr td:last-child {
+	width: 80%;
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /* * * * * * * * * * * * * Lists * * * * * * * * * * * */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * *  List 1 * * * * * * * * * * * */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .ul-1 {
 	list-style-type: none;
@@ -234,4 +266,51 @@ input[type="submit"] {
 
 .ul-1 > li > a:hover {
 	text-decoration: underline;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * Forms * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * *  Form 1 * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.form-1 label, .form-1 input, .form-1 select {
+	display: block;
+}
+
+.form-1 input[type='text'], .form-1 input[type='password'], .form-1 input[type='email'], .form-1 select {
+	border-radius: 2px;
+	border: 1px #BDBDBD solid;
+	width: 100%;
+	padding: 5px;
+}
+
+.form-1 input[type='text']:hover, .form-1 input[type='password']:hover, .form-1 input[type='email']:hover, .form-1 select:hover {
+	border-color: #FCC059;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.form-1 input[type='text']:focus, .form-1 input[type='password']:focus, .form-1 input[type='email']:focus, .form-1 select:focus {
+	border-color: #FCC059;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.2) inset;
+}
+
+.form-1 input[type='submit'] {
+	float: right;
+	border: 1px #FCC059 solid;
+	background-color: #FCC059;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	font-size: 1rem;
+	padding: 10px 20px 10px 20px;
+}
+
+.form-1 input[type='submit']:hover {
+	background-color: #F8B23A;
+}
+
+.form-1 input[type='submit']:active {
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.2) inset;
 }

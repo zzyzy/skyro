@@ -11,18 +11,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/zeeup.css">
-		<link rel="stylesheet" href="css/zeeup-skyro.css">
+		<link rel="stylesheet" href="css/style.css">
 		<style>
 		#banner {
 			background-color: #FCC059;
 		}
 
-		#banner-splash {
+		#banner-splash-wrapper {
 			height: 240px;
-			box-shadow: 0 0 0;
+			box-shadow: none;
 		}
 
-		#banner-nav > ul > li > a:hover {
+		#banner-nav ul > li > a:hover {
 			background-color: #DA9331;
 		}
 
@@ -38,9 +38,9 @@
 	<body>
 		<header id="cp">
 			<div class="container">
-				<div class="row">
-					<div class="col-100">
-						<nav id="cp-bar">
+				<nav id="cp-bar">
+					<div class="row">
+						<div class="col-100">
 							<ul class="left">
 								<li>Players: 3</li>
 								<li>Time: 1:51</li>
@@ -53,21 +53,21 @@
 								<li><a href="">Wiki</a></li>
 								<li><a href="">Forums</a></li>
 							</ul>
-						</nav>
+						</div>
 					</div>
-				</div>
+				</nav>
 			</div>
 		</header>
 
 		<header id="banner">
 			<div class="container">
-				<div class="row">
-					<div class="col-100">
-						<nav id="banner-nav">
+				<nav id="banner-nav">
+					<div class="row">
+						<div class="col-100">
 							<ul class="left">
 								<li><a href="about.html">About</a></li>
 								<li><a href="features.html">Features</a></li>
-								<li><a href="">News & Events</a></li>
+								<li><a href="news_events.html">News & Events</a></li>
 								<li><a href="downloads.html">Downloads</a></li>
 								<li><a href="ranking.html">Ranking</a></li>
 								<li><a id="current" href="">Join Us</a></li>
@@ -75,69 +75,65 @@
 							<ul class="right">
 								<li><span id="logo-title"><a href="index.html">sky Ragnarok Online</a></span></li>
 							</ul>
-						</nav>
+						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-100">
-						<div id="banner-splash">
-							<div id="banner-splash-foreword">
-								<div class="banner-h1">Join Us!</div>
-								<div class="banner-h2">Great and exciting things are already happening, so why wait? Join us now!</div>
+				</nav>
+				<section id="banner-splash">
+					<div class="row">
+						<div class="col-100">
+							<div id="banner-splash-wrapper">
+								<div id="banner-splash-foreword">
+									<h1 class="banner-h">Join Us!</h1>
+									<h2 class="banner-h">Great and exciting things are already happening, so why wait? Join us now!</h2>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
+				</section>
 			</div>
 		</header>
 
 		<section id="content">
 			<div class="container">
-				<div class="row">
-					<div class="col-100">
-						<h1>Fill it up and off you go!</h1>
-					</div>
-				</div>
-				<form id="reg-form">
+				<section id="reg-form-container">
 					<div class="row">
 						<div class="col-100">
-							<div class="padding-wrap">
-								<table>
-									<tr>
-										<td><label>Username</label></td>
-										<td><input type="text"></td>
-									</tr>
-									<tr>
-										<td><label>Email</label></td>
-										<td><input type="email"></td>
-									</tr>
-									<tr>
-										<td><label>Gender</label></td>
-										<td>
-											<select>
-												<option>Male</option>
-												<option>Female</option>
-											</select>
-										</td>
-									</tr>
-									<tr>
-										<td><label>Password</label></td>
-										<td><input type="password"></td>
-									</tr>
-									<tr>
-										<td><label>Confirm Password</label></td>
-										<td><input type="password"></td>
-									</tr>
-								</table>
-							</div>
+							<form class="form-1">
+								<h1>Fill it up and off you go!</h1>
+								<div class="padding-wrap">
+									<table class="table-2">
+										<tr>
+											<td><label>Username</label></td>
+											<td><input type="text"></td>
+										</tr>
+										<tr>
+											<td><label>Email</label></td>
+											<td><input type="email"></td>
+										</tr>
+										<tr>
+											<td><label>Gender</label></td>
+											<td>
+												<select>
+													<option>Male</option>
+													<option>Female</option>
+												</select>
+											</td>
+										</tr>
+										<tr>
+											<td><label>Password</label></td>
+											<td><input type="password"></td>
+										</tr>
+										<tr>
+											<td><label>Confirm Password</label></td>
+											<td><input type="password"></td>
+										</tr>
+									</table>
+								</div>
+								<input name="reg-submit" id="reg-submit" type="submit" value="Submit!">
+							</form>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-100">
-							<input name="reg-submit" id="reg-submit" type="submit" value="Submit!">
-						</div>
-					</div>
-				</form>
+				</section>
 			</div>
 		</section>
 
@@ -148,7 +144,7 @@
 						<ul class="ul-1">
 							<li><a href="">Features</a></li>
 							<li><a href="">News & Events</a></li>
-							<li><a href="">Explore</a></li>
+							<li><a href="explore.html">Explore</a></li>
 						</ul>
 					</div>
 					<div class="col-25">
@@ -178,14 +174,14 @@
 
 		<footer id="watermark">
 			<div class="container">
-				<div class="row">
-					<div class="col-100">
-						<div id="watermark">
+				<section id="watermark">
+					<div class="row">
+						<div class="col-100">
 							<p class="left">Copyright &copy; sky Ragnarok Online 2014.</p>
 							<p class="right">Designed by <a href="">Team Wasabi</a>.</p>
 						</div>
 					</div>
-				</div>
+				</section>
 			</div>
 		</footer>
 

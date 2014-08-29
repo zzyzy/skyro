@@ -8,14 +8,14 @@
 	box-shadow: 1px 3px 3px rgba(0,0,0,0.2);
 }
 
-#cp-bar > ul {
+#cp-bar ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 }
 
-#cp-bar > ul > li {
-	font-size: 0.875rem;
+#cp-bar ul > li {
+	font-size: 0.75rem;
 	color: #EFF4F7;
 	text-align: center;
 	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
@@ -24,7 +24,7 @@
 	float: left;
 }
 
-#cp-bar > ul > li:after {
+#cp-bar ul > li:after {
 	content: '|';
 	color: #EFF4F7;
 	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
@@ -32,23 +32,23 @@
 	padding-right: 10px;
 }
 
-#cp-bar > ul > li:last-child:after {
+#cp-bar ul > li:last-child:after {
 	content: '';
 	padding-left: 0;
 	padding-right: 0;
 }
 
-#cp-bar > ul > li > a {
+#cp-bar ul > li > a {
 	padding: 6px;
 	color: #EFF4F7;
 	text-decoration: none;
 }
 
-#cp-bar > ul > li > a:hover {
+#cp-bar ul > li > a:hover {
 	text-decoration: underline;
 }
 
-#cp-bar > ul:after {
+#cp-bar ul:after {
 	content: '';
 	display: block;
 	clear: both;
@@ -74,13 +74,13 @@
 	line-height: 200%;
 }
 
-#banner-nav > ul {
+#banner-nav ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 5px 0 5px 0;
 }
 
-#banner-nav > ul > li {
+#banner-nav ul > li {
 	color: #FFFFFF;
 	text-align: center;
 	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
@@ -89,31 +89,31 @@
 	float: left;
 }
 
-#banner-nav > ul > li:after {
+#banner-nav ul > li:after {
 	content: '';
 	padding-left: 5px;
 	padding-right: 5px;
 }
 
-#banner-nav > ul > li:last-child:after {
+#banner-nav ul > li:last-child:after {
 	content: '';
 	padding-left: 0;
 	padding-right: 0;
 }
 
-#banner-nav > ul > li > a {
+#banner-nav ul > li > a {
 	padding: 10px;
 	color: #FFFFFF;
 	text-decoration: none;
 }
 
-#banner-nav > ul > li > a:hover {
+#banner-nav ul > li > a:hover {
 	background-color: #336699;
 	border-radius: 5px;
 	transition: background-color 0.5s;
 }
 
-#banner-nav > ul:after {
+#banner-nav ul:after {
 	content: '';
 	display: block;
 	clear: both;
@@ -130,7 +130,7 @@
 /* * * * * * * * * Banner Splash * * * * * * * */
 /* * * * * * * * * * * * * * * * * * * * * * * */
 /* * * * * * * * * * * * * * * * * * * * * * * */
-#banner-splash {
+#banner-splash-wrapper {
 	position: relative;
 	width: 100%;
 	height: 480px;
@@ -204,7 +204,7 @@
 /* * * * * * * * * * * * * * * * * * * * * * * */
 /* * * * * * * * * * * * * * * * * * * * * * * */
 #content {
-	flex: 1;
+	flex: 1 0 auto;
 	margin-top: 30px;
 }
 
@@ -215,57 +215,12 @@
 
 /* * * * * * * * * * * * * * * * * * * * * * * */
 /* * * * * * * * * * * * * * * * * * * * * * * */
-/* * * * * * * * *  Reg Form * * * * * * * * * */
+/* * * * * * * * * * * Map * * * * * * * * * * */
 /* * * * * * * * * * * * * * * * * * * * * * * */
 /* * * * * * * * * * * * * * * * * * * * * * * */
-#reg-form label, #reg-form input, #reg-form select {
-	display: block;
-}
-
-#reg-form td {
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-#reg-form td:last-child {
+#skyro-map-wrapper > img {
 	width: 100%;
-}
-
-#reg-form input[type="text"], #reg-form input[type="password"], #reg-form input[type="email"], #reg-form select {
-	border-radius: 2px;
-	border: 1px #BDBDBD solid;
-	margin: 0 auto;
-	width: 80%;
-	padding: 5px;
-}
-
-#reg-form input[type="text"]:hover, #reg-form input[type="password"]:hover, #reg-form input[type="email"]:hover, #reg-form select:hover {
-	border-color: #FCC059;
-	box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-}
-
-#reg-form input[type="text"]:focus, #reg-form input[type="password"]:focus, #reg-form input[type="email"]:focus, #reg-form select:focus {
-	border-color: #FCC059;
-	box-shadow: 1px 1px 1px rgba(0,0,0,0.2) inset;
-}
-
-#reg-submit {
-	float: right;
-	width: 125px;
-	height: 50px;
-	border: 1px #FCC059 solid;
-	background-color: #FCC059;
-	color: #FFFFFF;
-	text-shadow: 1px 2px 2px rgba(0,0,0,0.2);
-	font-size: 1.25rem;
-}
-
-#reg-submit:hover {
-	background-color: #F8B23A;
-}
-
-#reg-submit:active {
-	box-shadow: 2px 2px 2px rgba(0,0,0,0.2) inset;
+	height: 100%;
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * */
@@ -291,15 +246,16 @@
 	background-color: #404040;
 }
 
-#watermark > p {
-	font-size: 0.875rem;
+#watermark p {
+	font-size: 0.75rem;
+	color: #ECECEC;
+	padding: 10px 0 10px 0;
+}
+
+#watermark p > a {
 	color: #ECECEC;
 }
 
-#watermark > p > a {
-	color: #ECECEC;
-}
-
-#watermark > p > a:hover {
+#watermark p a:hover {
 	text-decoration: none;
 }
