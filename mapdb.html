@@ -34,6 +34,10 @@
     h1 {
         background-color: #6FD85E;
     }
+
+    .table-1 th {
+        background-color: #6FD85E;
+    }
     </style>
 </head>
 <body>
@@ -97,39 +101,31 @@
 
     <section id="content">
         <div class="container">
-            <section id="skyro-map">
-                <div class="row">
-                    <div class="col-100">
-                        <h1>Move your cursor around to view the various towns in Ragnarok Online!</h1>
-                         <div id="skyro-map-wrapper">
-                            <img id="romap-img" src="img/map.jpg" alt="RO Map" usemap="#romap">
-                            <map name="romap">
-                                <area href="mapdb.html#map-hugel" alt="hugel" shape="rect" coords="654,1,692,41">
-                                <area href="mapdb.html#map-yuno" alt="yuno" shape="rect" coords="482,60,529,101">
-                                <area href="mapdb.html#map-einbroch" alt="einbroch" shape="rect" coords="390,176,429,215">
-                                <area href="mapdb.html#map-einbech" alt="einbech" shape="rect" coords="431,174,475,217">
-                                <area href="mapdb.html#map-lighthalzen" alt="lighthalzen" shape="rect" coords="301,219,342,259">
-                                <area href="mapdb.html#map-rachel" alt="rachel" shape="rect" coords="168,219,211,261">
-                                <area href="mapdb.html#map-veins" alt="veins" shape="rect" coords="121,396,161,437">
-                                <area href="mapdb.html#map-umbala" alt="umbala" shape="rect" coords="231,495,266,535">
-                                <area href="mapdb.html#map-comodo" alt="comodo" shape="rect" coords="222,625,265,668">
-                                <area href="mapdb.html#map-morocc" alt="morocc" shape="rect" coords="455,635,489,667">
-                                <area href="mapdb.html#map-payon" alt="payon" shape="rect" coords="724,560,759,599">
-                                <area href="mapdb.html#map-alberta" alt="alberta" shape="rect" coords="795,685,833,721">
-                                <area href="mapdb.html#map-prontera" alt="prontera" shape="rect" coords="609,439,651,481">
-                                <area href="mapdb.html#map-izlude" alt="izlude" shape="rect" coords="653,482,675,505">
-                                <area href="mapdb.html#map-geffen" alt="geffen" shape="rect" coords="431,395,475,437">
-                                <area href="mapdb.html#map-glast_01" alt="glast_01" shape="rect" coords="305,352,343,394">
-                                <area href="mapdb.html#map-aldebaran" alt="aldebaran" shape="rect" coords="608,218,651,263">
-                            </map>
-                            <div id="romap-zoomin-container">
-                                <h2></h2>
-                                <img id="romap-zoomin" src="">
-                            </div>
-                        </div>
-                    </div>
+            <div class="row">
+                <div class="col-100">
+                    <table class="table-1">
+                        <tr><th>Index</th><th>Map</th><th>Name</th><th>Description</th></tr>
+                        <tr id="map-hugel"><td>1</td><td><img src="img/hugel.gif"></td><td>hugel</td><td>Hugel, The Quaint Garden Village</td></tr>
+                        <tr id="map-yuno"><td>2</td><td><img src="img/yuno.gif"></td><td>yuno</td><td>Yuno, The Capital of Schwarzwald Republic</td></tr>
+                        <tr id="map-einbech"><td>3</td><td><img src="img/einbech.gif"></td><td>einbech</td><td>Einbech, The Mining Village</td></tr>
+                        <tr id="map-einbroch"><td>4</td><td><img src="img/einbroch.gif"></td><td>einbroch</td><td>Einbroch, The City of Steel</td></tr>
+                        <tr id="map-lighthalzen"><td>5</td><td><img src="img/lighthalzen.gif"></td><td>lighthalzen</td><td>Lightharlzen, The City-State of Prosperity</td></tr>
+                        <tr id="map-rachel"><td>6</td><td><img src="img/rachel.gif"></td><td>rachel</td><td>Rachel, Capital of Arunafeltz States</td></tr>
+                        <tr id="map-veins"><td>7</td><td><img src="img/veins.gif"></td><td>veins</td><td>Veins, The Canyon Village </td></tr>
+                        <tr id="map-umbala"><td>8</td><td><img src="img/umbala.gif"></td><td>umbala</td><td>Wootan Tribe's Village, Umbala</td></tr>
+                        <tr id="map-jawaii"><td>9</td><td><img src="img/jawaii.gif"></td><td>jawaii</td><td>Jawaii, The Honeymoon Island</td></tr>
+                        <tr id="map-morocc"><td>10</td><td><img src="img/morocc.gif"></td><td>morocc</td><td>Morocc Town</td></tr>
+                        <tr id="map-comodo"><td>11</td><td><img src="img/comodo.gif"></td><td>comodo</td><td>Beach Town, Comodo</td></tr>
+                        <tr id="map-payon"><td>12</td><td><img src="img/payon.gif"></td><td>payon</td><td>Payon Town</td></tr>
+                        <tr id="map-alberta"><td>13</td><td><img src="img/alberta.gif"></td><td>alberta</td><td>Alberta</td></tr>
+                        <tr id="map-prontera"><td>14</td><td><img src="img/prontera.gif"></td><td>prontera</td><td>Prontera City, Capitol of Rune-Midgart</td></tr>
+                        <tr id="map-izlude"><td>15</td><td><img src="img/izlude.gif"></td><td>izlude</td><td>Izlude Town</td></tr>
+                        <tr id="map-geffen"><td>16</td><td><img src="img/geffen.gif"></td><td>geffen</td><td>Geffen</td></tr>
+                        <tr id="map-glast_01"><td>17</td><td><img src="img/glast_01.gif"></td><td>glast_01</td><td>Glast Heim</td></tr>
+                        <tr id="map-aldebaran"><td>18</td><td><img src="img/aldebaran.gif"></td><td>aldebaran</td><td>Al De Baran</td></tr>
+                    </table>
                 </div>
-            </section>
+            </div>
         </div>
     </section>
 
@@ -140,7 +136,7 @@
                     <ul class="ul-1">
                         <li><a href="">Features</a></li>
                         <li><a href="">News & Events</a></li>
-                        <li><a href="">Explore</a></li>
+                        <li><a href="explore.html">Explore</a></li>
                     </ul>
                 </div>
                 <div class="col-25">
@@ -180,33 +176,5 @@
             </section>
         </div>
     </footer>
-
-    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
-    <script>window.jQuery || document.write('<script src="js/jquery-2.1.1.min.js"><\/script>')</script>
-    <script>
-    $('#skyro-map-wrapper').ready(function () {
-        $('area').mouseover(function(event) {
-            var par = $(this);
-
-            $('#romap-zoomin-container > h2').text(par.attr('alt'));
-            $('#romap-zoomin').attr('src', 'img/' + par.attr('alt') + '.gif');
-
-            $('#romap-zoomin-container').css({
-                'display': 'block',
-            });
-
-            $('#romap-zoomin-container').offset({left: event.pageX - 100});
-            $('#romap-zoomin-container').offset({top: event.pageY - 100});
-        });
-
-        $('area').mouseout(function() {
-            $('#romap-zoomin-container').css({
-                'display': 'none',
-                'top': '0',
-                'left': '0'
-            });
-        });
-    });
-    </script>
 </body>
 </html>

@@ -16,8 +16,8 @@ $(document).ready(function () {
 			var src = src_dir + src_file_prefix + count + src_ext;
 
 			img1.attr('src', src);
-			img1.animate({opacity:'1'});
-			img2.animate({opacity:'1'});
+			img1.animate({'opacity':'1'});
+			img2.animate({'opacity':'1'});
 
 			control_slide_left.mouseup(function () {
 				if (img1.is(':visible')) {
