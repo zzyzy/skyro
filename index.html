@@ -46,7 +46,7 @@
 						<ul class="left">
 							<li><a href="about.html">About</a></li>
 							<li><a href="features.html">Features</a></li>
-							<li><a href="news_events.html">News & Events</a></li>
+							<li><a href="news_events.html">News &amp; Events</a></li>
 							<li><a href="downloads.html">Downloads</a></li>
 							<li><a href="ranking.html">Ranking</a></li>
 							<li><a href="joinus.html">Join Us</a></li>
@@ -62,12 +62,10 @@
 					<div class="col-100">
 						<div id="banner-splash-wrapper">
 							<div id="banner-splash-slider">
-								<img id="banner-splash-slider-img-1" alt="Image">
-								<img id="banner-splash-slider-img-2" alt="Image">
-							</div>
-							<div id="banner-splash-control">
-								<button id="banner-splash-control-slide-left" class="left"></button>
-								<button id="banner-splash-control-slide-right" class="right"></button>
+								<a href=""><img id="banner-splash-slider-img-1" alt="Image"></a>
+								<a href=""><img id="banner-splash-slider-img-2" alt="Image"></a>
+								<button class="banner-splash-control left" id="banner-splash-control-slide-left"></button>
+								<button class="banner-splash-control right" id="banner-splash-control-slide-right"></button>
 							</div>
 						</div>
 					</div>
@@ -128,7 +126,7 @@
 				<div class="col-25">
 					<ul class="ul-1">
 						<li><a href="">Features</a></li>
-						<li><a href="">News & Events</a></li>
+						<li><a href="">News &amp; Events</a></li>
 						<li><a href="explore.html">Explore</a></li>
 					</ul>
 				</div>
@@ -171,6 +169,82 @@
 	</footer>
 
 	<script src="js/jquery-2.1.1.min.js"></script>
-	<script src="js/script.js"></script>
+	<script>
+	$(document).ready(function () {
+		$('#banner-splash-slider-img1').ready(function () {
+			$('#banner-splash-slider-img2').ready(function () {
+				var img1 = $('#banner-splash-slider-img-1');
+				var img2 = $('#banner-splash-slider-img-2');
+				var control_slide_left = $('#banner-splash-control-slide-left');
+				var control_slide_right = $('#banner-splash-control-slide-right');
+
+				var min_count = 1;
+				var max_count = 5;
+				var count = Math.floor((Math.random() * max_count) + min_count);
+
+				var src_dir = 'img/';
+				var src_file_prefix = 'slider-img-';
+				var src_ext = '.jpg';
+				var src = src_dir + src_file_prefix + count + src_ext;
+
+				img1.attr('src', src);
+				img1.animate({'opacity':'1'});
+				img2.animate({'opacity':'1'});
+
+				control_slide_left.mouseup(function () {
+					if (img1.is(':visible')) {
+						count--;
+						if (count < min_count) {
+							count = max_count;
+						}
+						src = src_dir + src_file_prefix + count + src_ext;
+						img2.attr('src', src);
+
+						img1.fadeOut();
+						img2.fadeIn();
+					}
+					else {
+						count--;
+						if (count < min_count) {
+							count = max_count;
+						}
+						src = src_dir + src_file_prefix + count + src_ext;
+						img1.attr('src', src);
+
+						img1.fadeIn();
+						img2.fadeOut();
+					}
+				});
+
+				control_slide_right.mouseup(function () {
+					if (img1.is(':visible')) {
+						count++;
+						if (count > max_count) {
+							count = min_count;
+						}
+						src = src_dir + src_file_prefix + count + src_ext;
+						img2.attr('src', src);
+
+						img1.fadeOut();
+						img2.fadeIn();
+					}
+					else {
+						count++;
+						if (count > max_count) {
+							count = min_count;
+						}
+						src = src_dir + src_file_prefix + count + src_ext;
+						img1.attr('src', src);
+
+						img1.fadeIn();
+						img2.fadeOut();
+					}
+				});
+
+				var slideTimer = setInterval(function () {control_slide_right.mouseup()}, 10000);
+			});
+		});
+	});
+	</script>
 </body>
 </html>

@@ -68,7 +68,7 @@
                         <ul class="left">
                             <li><a href="about.html">About</a></li>
                             <li><a href="features.html">Features</a></li>
-                            <li><a href="news_events.html">News & Events</a></li>
+                            <li><a href="news_events.html">News &amp; Events</a></li>
                             <li><a href="downloads.html">Downloads</a></li>
                             <li><a href="ranking.html">Ranking</a></li>
                             <li><a href="joinus.html">Join Us</a></li>
@@ -139,7 +139,7 @@
                 <div class="col-25">
                     <ul class="ul-1">
                         <li><a href="">Features</a></li>
-                        <li><a href="">News & Events</a></li>
+                        <li><a href="">News &amp; Events</a></li>
                         <li><a href="">Explore</a></li>
                     </ul>
                 </div>
@@ -181,29 +181,30 @@
         </div>
     </footer>
 
-    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
-    <script>window.jQuery || document.write('<script src="js/jquery-2.1.1.min.js"><\/script>')</script>
+    <script src="js/jquery-2.1.1.min.js"></script>
     <script>
-    $('#skyro-map-wrapper').ready(function () {
-        $('area').mouseover(function(event) {
-            var par = $(this);
+    $(document).ready(function () {
+        $('#skyro-map-wrapper').ready(function () {
+            $('area').mouseover(function(event) {
+                var par = $(this);
 
-            $('#romap-zoomin-container > h2').text(par.attr('alt'));
-            $('#romap-zoomin').attr('src', 'img/' + par.attr('alt') + '.gif');
+                $('#romap-zoomin-container > h2').text(par.attr('alt'));
+                $('#romap-zoomin').attr('src', 'img/' + par.attr('alt') + '.gif');
 
-            $('#romap-zoomin-container').css({
-                'display': 'block',
+                $('#romap-zoomin-container').css({
+                    'display': 'block',
+                });
+
+                $('#romap-zoomin-container').offset({left: event.pageX - 100});
+                $('#romap-zoomin-container').offset({top: event.pageY - 100});
             });
 
-            $('#romap-zoomin-container').offset({left: event.pageX - 100});
-            $('#romap-zoomin-container').offset({top: event.pageY - 100});
-        });
-
-        $('area').mouseout(function() {
-            $('#romap-zoomin-container').css({
-                'display': 'none',
-                'top': '0',
-                'left': '0'
+            $('area').mouseout(function() {
+                $('#romap-zoomin-container').css({
+                    'display': 'none',
+                    'top': '0',
+                    'left': '0'
+                });
             });
         });
     });
