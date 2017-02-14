@@ -1,0 +1,771 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"backgr",
+				"background-repeat"
+			],
+			[
+				"offset",
+				"offset	.offset()"
+			],
+			[
+				"css",
+				"css	.css() - multiple"
+			],
+			[
+				"each",
+				"each	.each()"
+			],
+			[
+				"attr",
+				"attr	.attr() - single"
+			],
+			[
+				"ready",
+				"ready	document.ready - $(function(){})"
+			],
+			[
+				"rea",
+				"ready	$(document).ready"
+			],
+			[
+				"re",
+				"ready	document.ready - $(function(){})"
+			],
+			[
+				"bane",
+				"banner-splash-foreword"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"pading",
+				"padding-top"
+			],
+			[
+				"sie",
+				"size	.size()"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"animate",
+				"animate	.animate()"
+			],
+			[
+				"url",
+				"url(  (value)"
+			],
+			[
+				"border",
+				"border-collapse"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "about.html",
+			"settings":
+			{
+				"buffer_size": 9327,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 467.0,
+		"last_filter": "close",
+		"selected_items":
+		[
+			[
+				"close",
+				"Project: Close"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"lint",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"error",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"syn html",
+				"Set Syntax: HTML"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"jquery",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"high",
+				"Highlight Whitespaces: Toggle"
+			],
+			[
+				"git log",
+				"Git: Log"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			],
+			[
+				"insall",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"package control s",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 685.0
+	},
+	"console":
+	{
+		"height": 522.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/home/Documents/Web Projects/w3-assign1",
+		"/D/home/Documents/Web Projects/w3-assign1/css"
+	],
+	"file_history":
+	[
+		"/C/Users/skylight/AppData/Roaming/Sublime Text 3/Settings/SideBarEnhancements.json",
+		"/D/xampp/htdocs/projects/.sublime/SideBarEnhancements.json",
+		"/C/Users/skylight/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/skylight/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/xampp/htdocs/projects/skyro/css/style.css",
+		"/D/xampp/htdocs/projects/skyro/index.html",
+		"/D/xampp/htdocs/projects/skyro/skyro.sublime-project",
+		"/C/Users/skylight/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Default (Windows).sublime-keymap",
+		"/C/Users/skylight/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/C/Users/skylight/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/D/xampp/htdocs/projects/skyro/readme.md",
+		"/C/Users/skylight/AppData/Roaming/Sublime Text 3/Packages/User/SublimeHighlight.sublime-settings",
+		"/C/Users/skylight/AppData/Roaming/Sublime Text 3/Packages/Highlight/SublimeHighlight.sublime-settings",
+		"/C/Program Files/nodejs/node_modules/npm/README.md",
+		"/D/xampp/htdocs/projects/skyro/js/script.js",
+		"/D/xampp/htdocs/projects/skyro/explore.html",
+		"/D/xampp/htdocs/projects/skyro/joinus.html",
+		"/D/xampp/htdocs/projects/skyro/ranking.html",
+		"/D/xampp/htdocs/projects/skyro/news_events.html",
+		"/D/xampp/htdocs/projects/skyro/mapdb.html",
+		"/D/xampp/htdocs/projects/skyro/features.html",
+		"/D/xampp/htdocs/projects/skyro/about.html",
+		"/D/xampp/htdocs/projects/skyro/downloads.html",
+		"/C/Users/skylight/express_example/app.js",
+		"/D/xampp/htdocs/projects/skyro/css/zeeup.css",
+		"/D/Downloads/New folder (2)/about.html",
+		"/D/Downloads/New folder/features.html",
+		"/D/Downloads/New folder/css/zeeup-skyro.css",
+		"/D/Downloads/New folder (2)/event.html",
+		"/D/Downloads/New folder/event.html",
+		"/D/Downloads/New folder/news.html",
+		"/D/xampp/htdocs/projects/skyro/css/zeeup-skyro.css",
+		"/C/Users/skylight/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/D/Downloads/Lab Task 2 v2/main.cpp",
+		"/D/Downloads/New folder/about.html",
+		"/D/lzz/stuffs/INTI/First Year Sem 2/CSCI124 (SJ214) Applied Programming/labtask2/makefile",
+		"/D/xampp/htdocs/projects/skyro-registration/index.html",
+		"/D/xampp/htdocs/projects/skyro-registration/register.php",
+		"/D/xampp/htdocs/projects/skyro/.gitignore",
+		"/D/xampp/htdocs/projects/skyro/test.css",
+		"/C/Users/skylight/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/skylight/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/D/xampp/htdocs/projects/html5-boilerplate-4.3.0/css/normalize.css",
+		"/D/xampp/htdocs/projects/flexbox-sticky-footer/index.html",
+		"/D/xampp/htdocs/projects/test/index.html",
+		"/D/xampp/htdocs/projects/test/style.css",
+		"/D/xampp/htdocs/projects/test/css/zeeup.css",
+		"/D/xampp/htdocs/projects/flexbox-sticky-footer/style.css",
+		"/D/xampp/htdocs/projects/skyro/style.css",
+		"/C/Users/skylight/AppData/Roaming/Sublime Text 3/Packages/TrailingSpaces/trailing_spaces.sublime-settings",
+		"/C/Users/skylight/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/skylight/AppData/Roaming/Sublime Text 3/Packages/User/highlight_whitespaces.sublime-settings",
+		"/C/Users/skylight/AppData/Roaming/Sublime Text 3/Packages/HighlightWhitespaces/highlight_whitespaces.sublime-settings",
+		"/D/lzz/Workspace/skyro/.gitignore",
+		"/D/Downloads/readme.md",
+		"/D/xampp/htdocs/xampp/navi.php",
+		"/D/lzz/Workspace/skyRO Website/css/style.css",
+		"/D/lzz/Workspace/skyRO Website/style.css",
+		"/D/lzz/Workspace/skyRO Website/script.js",
+		"/C/Users/skylight/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/D/xampp/htdocs/projects/challenge.2/index.php",
+		"/D/Untitled Folder/main.cpp",
+		"/D/xampp/htdocs/projects/cms.3/index.php",
+		"/D/xampp/htdocs/projects/index.php",
+		"/D/lzz/stuffs/INTI/First Year Sem 2/CSCI124 (SJ214) Applied Programming/Lab Task 1/Q1-new-commented.cpp",
+		"/D/Downloads/OE Exp Ship Date Updater/1.0.2/frmOEExpShipDateUpdater.frm",
+		"/D/xampp/htdocs/projects/cms.3/php/classes.php",
+		"/D/Downloads/OE Exp Ship Date Updater/1.0.3/frmAbout.frm",
+		"/C/Users/skylight/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/D/xampp/phpMyAdmin/config.inc.php",
+		"/D/xampp/phpMyAdmin/config.sample.inc.php",
+		"/D/xampp/phpMyAdmin/examples/create_tables.sql",
+		"/D/xampp/phpMyAdmin/examples/create_tables_drizzle.sql",
+		"/D/wamp/www/index.php",
+		"/C/Users/skylight/AppData/Roaming/Sublime Text 3/Packages/Browser Refresh/Default (Windows).sublime-keymap",
+		"/D/lzz/backup/x/sublime_text/Preferences.sublime-settings",
+		"/D/Downloads/csci124 lab task 1/Q1.cpp",
+		"/D/lzz/backup/windows/skyRO Project/rathena/server/skyro-server-rathena/conf/import/map_conf.txt",
+		"/D/lzz/backup/windows/skyRO Project/rathena/server/skyro-server-rathena/conf/import/char_conf.txt",
+		"/D/lzz/backup/windows/skyRO Project/rathena/server/skyro-server-rathena/conf/import/login_conf.txt",
+		"/D/lzz/backup/windows/skyRO Project/rathena/server/skyro-server-rathena/conf/import/battle_conf.txt",
+		"/D/lzz/backup/windows/skyRO Project/rathena/server/skyro-server-rathena/conf/motd.txt",
+		"/D/lzz/backup/windows/skyRO Project/rathena/server/skyro-server-rathena/conf/subnet_athena.conf",
+		"/D/lzz/backup/windows/skyRO Project/rathena/resources/conf/import/char_conf.txt",
+		"/D/lzz/backup/windows/skyRO Project/eathena/server/skyro-server-eathena/conf/import/login_conf.txt",
+		"/D/lzz/backup/windows/skyRO Project/eathena/server/skyro-server-eathena/conf/login_athena.conf",
+		"/D/lzz/backup/windows/skyRO Project/rathena/resources/rathena-master-re/src/config/renewal.h",
+		"/D/lzz/backup/windows/skyRO Project/rathena/server/rathena-master-pre-re/conf/motd.txt",
+		"/D/lzz/backup/windows/skyRO Project/rathena/resources/rathena-master/src/config/renewal.h",
+		"/D/lzz/backup/windows/skyRO Project/rathena/server/skyro-server-rathena/charserv-sql.bat",
+		"/D/lzz/backup/windows/skyRO Project/rathena/server/skyro-server-rathena/conf/char_athena.conf",
+		"/D/lzz/backup/windows/skyRO Project/rathena/server/skyro-server-rathena/conf/login_athena.conf",
+		"/D/lzz/backup/windows/skyRO Project/rathena/server/skyro-server-rathena/conf/inter_athena.conf",
+		"/D/visual studio 2013/projects/ServerEditor/ServerEditor/bin/Debug/import/battle_conf.txt",
+		"/D/lzz/backup/windows/skyRO Project/rathena/server/skyro-server-rathena/src/config/renewal.h",
+		"/D/lzz/backup/windows/skyRO Project/rathena/resources/import/battle_conf.txt",
+		"/D/lzz/backup/windows/skyRO Project/rathena/server/skyro-server-rathena/conf/battle/exp.conf",
+		"/D/lzz/backup/windows/skyRO Project/rathena/server/skyro-server-rathena/conf/map_athena.conf",
+		"/C/Users/skylight/AppData/Roaming/Sublime Text 3/Packages/User/C++.sublime-build",
+		"/D/Downloads/skyRO Project/rathena/server/skyro-server/conf/msg_conf/char_msg.conf",
+		"/D/Downloads/skyRO Project/rathena/server/skyro-server/conf/battle/battle.conf",
+		"/D/Downloads/skyRO Project/rathena/server/skyro-server/conf/subnet_athena.conf",
+		"/D/Downloads/skyRO Project/rathena/server/skyro-server/conf/char_athena.conf",
+		"/D/Downloads/skyRO Project/rathena/server/skyro-server/conf/map_athena.conf",
+		"/D/Downloads/skyRO Project/rathena/resources/import/map_conf.txt",
+		"/D/Downloads/skyRO Project/rathena/resources/import/char_conf.txt",
+		"/D/Downloads/skyRO Project/rathena/resources/import/battle_conf.txt",
+		"/D/Downloads/skyRO Project/server/skyro-server/conf/battle/player.conf",
+		"/D/Downloads/skyRO Project/server/skyro-server/conf/import/battle_conf.txt",
+		"/D/Downloads/skyRO Project/server/skyro-server/conf/battle/status.conf",
+		"/D/Downloads/skyRO Project/server/skyro-server/conf/battle/skill.conf",
+		"/D/Downloads/skyRO Project/server/skyro-server/conf/battle/party.conf",
+		"/D/Downloads/skyRO Project/server/skyro-server/conf/battle/monster.conf",
+		"/D/Downloads/skyRO Project/server/skyro-server/conf/battle/misc.conf",
+		"/D/Downloads/skyRO Project/server/skyro-server/conf/battle/homunc.conf",
+		"/D/Downloads/skyRO Project/server/skyro-server/conf/battle/items.conf",
+		"/D/Downloads/skyRO Project/server/skyro-server/conf/battle/feature.conf",
+		"/D/Downloads/skyRO Project/server/skyro-server/conf/battle/guild.conf",
+		"/D/Downloads/skyRO Project/server/skyro-server/conf/battle/gm.conf",
+		"/D/Downloads/skyRO Project/server/skyro-server/conf/battle/drops.conf",
+		"/D/Downloads/skyRO Project/server/skyro-server/conf/battle/client.conf",
+		"/D/Downloads/skyRO Project/server/skyro-server/conf/battle/battleground.conf",
+		"/D/Downloads/skyRO Project/server/skyro-server/conf/battle/exp.conf",
+		"/D/Downloads/skyRO Project/server/skyro-server/conf/battle/battle.conf",
+		"/D/Downloads/rathena-master/conf/motd.txt",
+		"/D/Downloads/rathena-master/conf/inter_athena.conf",
+		"/D/Downloads/rathena-master/conf/subnet_athena.conf",
+		"/D/Downloads/rathena-master/src/config/renewal.h"
+	],
+	"find":
+	{
+		"height": 45.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" alt=\"Image\"",
+			";",
+			"&",
+			"&'",
+			"&",
+			"-1",
+			"th",
+			"h3",
+			"h2",
+			"padding",
+			"ul",
+			" width=\"80%\"",
+			"z-index",
+			"\n                        <div class=\"padding-wrap\">",
+			"h3",
+			"2",
+			"#",
+			"h",
+			"\"",
+			" title=\"\"",
+			"  ",
+			" ",
+			" style=\"outline:none;\" target=\"_self\"",
+			"     /",
+			"href=\"http://www.image-maps.com/\"",
+			"\"",
+			"shadow",
+			"079C90",
+			"FFC200",
+			"FF9D4C",
+			"FFD44C",
+			"E4750F",
+			"F8963C",
+			"col-ul",
+			"B55CA9",
+			"}\n",
+			"B993B4",
+			"BA3A88",
+			"CF5AA1",
+			"transparent",
+			"div",
+			"padding",
+			"#reg-form",
+			"\n#",
+			"}",
+			"#reg-form",
+			"font-size",
+			"0.75rem",
+			"font-size",
+			">",
+			"2",
+			"col-ul",
+			"em",
+			"h1",
+			"font-size",
+			"h2",
+			"span",
+			"d",
+			"1",
+			"row-wrap",
+			"ul-wrap",
+			"row-wrap",
+			"ul-wrap",
+			"row-wrap",
+			"font-size",
+			".row-ul-wrap",
+			"ul-wrap",
+			"font-size",
+			"ul-wrap",
+			"em",
+			"banner-h",
+			"row-wrap",
+			"text-wrap",
+			"row-wrap",
+			"active",
+			"registration",
+			"',",
+			"\"",
+			"position: absolute",
+			"px",
+			"color",
+			"#cp-bar",
+			"margin",
+			"$('#banner-splash-control-slide-right')",
+			"control_slide_right",
+			"img1",
+			"main-content-img-slider-control",
+			"#EFF4F7",
+			"splash",
+			"cp-bar",
+			"-header",
+			"main-header-nav",
+			"img",
+			"content",
+			"text",
+			"\"",
+			"#FAAC58",
+			"#E1AE14",
+			"nav-1",
+			"lang",
+			"FAC",
+			"lv",
+			"solid",
+			"background",
+			"arrSize",
+			"favicon",
+			"container",
+			"break",
+			"ajax",
+			"taskCompletion",
+			"taskDeletion",
+			"taskCreation",
+			"userAuthentication",
+			"userDeletion",
+			"userCreation",
+			"checkTask",
+			"checkUser",
+			"breakStr",
+			"getStringWSpace",
+			"getStringBSpace",
+			"getStringWSpace",
+			"serase",
+			"ssplit",
+			"ssplitPos",
+			"std::"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "about.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 9327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Flatland Monokai (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1638.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 169.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 169.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "skyro.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"class",
+				"php\\classes.php"
+			],
+			[
+				"body.css",
+				"css\\body.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\xampp\\htdocs\\projects\\challenge.3\\challenge.3.sublime-project"
+			],
+			[
+				"w3",
+				"D:\\xampp\\htdocs\\projects\\w3\\assign2\\w3-assign2.sublime-project"
+			],
+			[
+				"m",
+				"D:\\xampp\\htdocs\\projects\\cms.3\\cms.3.sublime-project"
+			],
+			[
+				"cms3",
+				"D:\\xampp\\htdocs\\projects\\cms.3\\cms.3.sublime-project"
+			],
+			[
+				"lab",
+				"D:\\lzz\\Workspace\\labtask2\\labtask2.sublime-project"
+			],
+			[
+				"cm",
+				"D:\\xampp\\htdocs\\projects\\cms.3\\cms.3.sublime-project"
+			],
+			[
+				"csm3",
+				"D:\\xampp\\htdocs\\projects\\cms.3\\cms.3.sublime-project"
+			],
+			[
+				"cms",
+				"D:\\wamp\\www\\cms.3\\cms.3.sublime-project"
+			],
+			[
+				"challenge3",
+				"D:\\wamp\\www\\challenge.3\\challenge.3.sublime-project"
+			],
+			[
+				"fileuplaoder1",
+				"D:\\wamp\\www\\file-uploader.1\\file-uploader.1.sublime-project"
+			],
+			[
+				"fileuploader1",
+				"D:\\wamp\\www\\file-uploader.1\\file-uploader.1.sublime-project"
+			],
+			[
+				"practice1",
+				"D:\\wamp\\www\\practice.1\\practice.1.sublime-project"
+			],
+			[
+				"prac",
+				"D:\\wamp\\www\\practice.1\\practice.1.sublime-project"
+			],
+			[
+				"zz1",
+				"D:\\wamp\\www\\zz.1\\zz1.sublime-project"
+			],
+			[
+				"new",
+				"D:\\wamp\\www\\new-cms-git-test\\new-cms.sublime-project"
+			],
+			[
+				"new-cms",
+				"D:\\wamp\\www\\new-cms-git-test\\new-cms.sublime-project"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 80.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 472.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
